@@ -25,5 +25,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /* USUAL STYLE */
 .padding {
-  @apply px-20
+  @apply px-6 md:px-10 lg:px-20 2xl:px-28
+}
+.button-size {
+  @apply py-2.5 md:py-3 px-4 lg:px-8 rounded-full text-sm font-bold
+}
+#title {
+  @apply text-2xl text-black
+}
+
+
+/* HEADER */
+header {
+  @apply flex w-full h-20 items-center justify-between padding
+}
+header div:first-child {
+  @apply flex gap-28 items-center
+}
+header nav ul a {
+  @apply font-[400] text-gray-700
 }
