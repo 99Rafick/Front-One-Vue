@@ -33,6 +33,19 @@ h1, h2, h3, h4, h5, h6 {
 #title {
   @apply text-2xl text-black
 }
+.text-extrasmall {
+  @apply text-xs
+}
+.text-small {
+    @apply md:text-sm
+}
+.text-smallbig {
+  @apply text-3xl
+}
+
+.text-big {
+    @apply text-4xl
+}
 
 
 /* HEADER */
@@ -44,4 +57,15 @@ header div:first-child {
 }
 header nav ul a {
   @apply font-[400] text-gray-700
+}
+
+/* HERO BANNER */
+section#hero-banner{
+  @apply mt-5 relative grid lg:grid-cols-4 w-full lg:min-h-[85vh] lg:gap-8 padding
+}
+section#hero-banner > .hero-banner-left{
+  @apply lg:col-span-3 h-full rounded-3xl
+}
+section#hero-banner > .hero-banner-right{
+  @apply lg:col-span-1
 }
