@@ -1,0 +1,34 @@
+/* color palette */
+:root {
+  --primary-color-one:  #001F3F ;
+  --primary-color-two: #3e368c;
+  --primary-color-three: #360e0f;
+
+
+  --primary-color-one-o: rgba(0, 31, 63, 0.87);
+  --primary-color-one-oo: rgba(0, 31, 63, 0.02);
+
+  --secondary-color-one: #f6a313;
+  --secondary-color-two: #da4e96;
+
+  --gradient-color-red: #F12711;
+  --gradient-color-yellow: #F5AF19;
+}
+
+/* font-family */
+:root {
+  --title-font-family: 'DM Sans', sans-serif;
+  --text-font-family-one: 'Urbanist', sans-serif;
+  --text-font-family-two: 'Source Sans 3', sans-serif;
+  --number-font-family: 'Protest Strike', sans-serif;
+}
+
+:root {
+  --section-rounded: 55px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+
+  }
+}
