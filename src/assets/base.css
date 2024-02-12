@@ -17,10 +17,7 @@
 
 /* font-family */
 :root {
-  --title-font-family: 'DM Sans', sans-serif;
-  --text-font-family-one: 'Urbanist', sans-serif;
-  --text-font-family-two: 'Source Sans 3', sans-serif;
-  --number-font-family: 'Protest Strike', sans-serif;
+  --font-family: 'Mulish', sans-serif;
 }
 
 :root {
