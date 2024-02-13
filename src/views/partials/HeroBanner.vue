@@ -1,15 +1,18 @@
 <script setup>
 import SecondaryButton from "@/components/SecondaryButton.vue";
 import IconRightButton from "@/components/IconRightButton.vue";
+import SectionTitle from "@/components/SectionTitle.vue";
 </script>
 <template>
     <section id="hero-banner">
         <div class="hero-banner-left lg:p-16 relative flex items-end" style="background-image: url('https://images.pexels.com/photos/2569997/pexels-photo-2569997.jpeg'); background-size: cover">
             <div class="flex items-center justify-between">
-              <div>
-                <span class="text-white text-extrasmall text-gray-300 uppercase font-light">SOFTWARE DEVELOPPEMENT SERVICE</span>
-                <h2 class="text-white mt-3 w-8/12 text-big">We are website & app  development agency</h2>
-              </div>
+              <SectionTitle
+                  :color-white="true"
+                  class="w-8/12"
+                  sub-title="SOFTWARE DEVELOPPEMENT SERVICE"
+                  title="We are website & app  development agency"
+              />
               <SecondaryButton class="flex-none" name="Get in touch" link="#" />
             </div>
         </div>
