@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family)!important;
   font-weight: bold;
 }
+p {
+  @apply  text-gray-500
+}
 
 
 /* USUAL STYLE */
@@ -28,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   @apply px-6 md:px-10 lg:px-20 2xl:px-28
 }
 .button-size {
-  @apply py-2.5 md:py-3 px-4 lg:px-8 rounded-full text-sm font-bold
+  @apply py-2.5 md:py-3 px-4 lg:px-8 rounded-full text-sm font-bold block w-max
 }
 #title {
   @apply text-2xl text-black
@@ -42,9 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 .text-smallbig {
   @apply text-3xl
 }
-
 .text-big {
     @apply text-4xl
+}
+.sections-spacing {
+    @apply lg:mt-10
 }
 
 
