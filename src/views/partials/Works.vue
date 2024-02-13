@@ -5,7 +5,7 @@ import WorkCard from "@/components/WorkCard.vue";
 </script>
 
 <template>
-    <section id="services" class="padding sections-spacing">
+    <section id="works" class="padding sections-spacing">
         <div class="flex items-start w-full justify-between">
             <SectionTitle
                 class="w-6/12"
