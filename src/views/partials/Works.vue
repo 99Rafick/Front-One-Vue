@@ -1,7 +1,7 @@
 <script setup>
 import SectionTitle from "@/components/SectionTitle.vue";
 import PrimaryButton from "@/components/PrimaryButton.vue";
-import ServiceCard from "@/components/ServiceCard.vue";
+import WorkCard from "@/components/WorkCard.vue";
 </script>
 
 <template>
@@ -20,42 +20,42 @@ import ServiceCard from "@/components/ServiceCard.vue";
         </div>
 
         <div class="sections-spacing w-full overflow-x-scroll flex gap-10">
-          <ServiceCard
+          <WorkCard
               class="w-[calc(50%-40px)]"
               link="#"
               image="https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg"
               title="Bloomey, housplants store"
               sub-title="Website Development"
           />
-          <ServiceCard
+          <WorkCard
               class="w-[calc(50%-40px)]"
               link="#"
               image="https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg"
               title="Bloomey, housplants store"
               sub-title="Website Development"
           />
-          <ServiceCard
+          <WorkCard
               class="w-[calc(50%-40px)]"
               link="#"
               image="https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg"
               title="Bloomey, housplants store"
               sub-title="Website Development"
           />
-          <ServiceCard
+          <WorkCard
               class="w-[calc(50%-40px)]"
               link="#"
               image="https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg"
               title="Bloomey, housplants store"
               sub-title="Website Development"
           />
-          <ServiceCard
+          <WorkCard
               class="w-[calc(50%-40px)]"
               link="#"
               image="https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg"
               title="Bloomey, housplants store"
               sub-title="Website Development"
           />
-          <ServiceCard
+          <WorkCard
               class="w-[calc(50%-40px)]"
               link="#"
               image="https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg"

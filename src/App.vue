@@ -3,7 +3,7 @@
 import Header from "@/views/partials/Header.vue";
 import HeroBanner from "@/views/partials/HeroBanner.vue";
 import Sponsors from "@/views/partials/Sponsors.vue";
-import Services from "@/views/partials/Services.vue";
+import Works from "@/views/partials/Works.vue";
 </script>
 
 <template>
@@ -11,6 +11,6 @@ import Services from "@/views/partials/Services.vue";
     <main>
         <HeroBanner />
         <Sponsors />
-        <Services />
+        <Works />
     </main>
 </template>
