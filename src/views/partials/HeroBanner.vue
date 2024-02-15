@@ -13,7 +13,7 @@ import SectionTitle from "@/components/SectionTitle.vue";
                   sub-title="SOFTWARE DEVELOPPEMENT SERVICE"
                   title="We are website & app  development agency"
               />
-              <SecondaryButton class="flex-none" name="Get in touch" link="#" />
+              <SecondaryButton :color-text="true" class="flex-none" name="Get in touch" link="#" />
             </div>
         </div>
         <div class="hero-banner-right overflow-hidden">
