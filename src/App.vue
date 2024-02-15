@@ -7,6 +7,7 @@ import Works from "@/views/partials/Works.vue";
 import Services from "@/views/partials/Services.vue";
 import About from "@/views/partials/About.vue";
 import Testimonials from "@/views/partials/Testimonials.vue";
+import Footer from "@/views/partials/Footer.vue";
 </script>
 
 <template>
@@ -19,4 +20,5 @@ import Testimonials from "@/views/partials/Testimonials.vue";
         <About />
         <Testimonials />
     </main>
+    <Footer />
 </template>
